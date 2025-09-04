@@ -280,33 +280,3 @@ body {
     }
 
 
-/* Default = Phone (small screen) */
-.main {
-    margin: 5px;
-}
-.top-section {
-    grid-template-columns: 1fr;  /* Stack logo, title, photo vertically */
-    text-align: center;
-}
-.photo img, .logo img {
-    width: 60px;
-    height: 60px;
-}
-.marksheet, .gpa-table {
-    font-size: 10px;
-}
-.exam-notes {
-    flex-direction: column;
-    gap: 10px;
-    font-size: 9px;
-}
-.marksheet-footer {
-    flex-direction: column;
-    gap: 10px;
-    font-size: 11px;
-}
-.footer-left, .footer-center, .footer-right {
-    width: 100%;
-    text-align: center;
-}
-
